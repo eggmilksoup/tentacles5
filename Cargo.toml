@@ -1,0 +1,11 @@
+[package]
+name = "tentacles5"
+version = "5.0.0"
+edition = "2021"
+
+[dependencies]
+rand = "^0.8.5"
+reqwest = "^0.11.18"
+scraper = "^0.16.0"
+serenity = "^0.11"
+tokio = { version = "^1.21.2", features = ["macros", "rt-multi-thread"] }
